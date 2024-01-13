@@ -101,5 +101,15 @@
         width: 100%;
        text-align: center;
     }
+    .feature-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+   .feature{
+           flex-direction: column;
+    }
+    .feature-info{
+        text-align: center;
+    }
+
     
 }
