@@ -47,6 +47,7 @@
     height: auto;
     width: auto;
     margin: 30px;
+    
 }
 .feature{
     display: flex;
@@ -78,6 +79,85 @@
 .feature-info button{
    margin-top: 20px;
 }
+.love{
+    display: flex;
+    
+}
+.love-info{
+    margin: 70px;
+    padding-left: 40px;
+}
+.love-img{
+    margin: 30px;
+    padding-left: 90px;
+}
+ .love-info h1{
+    font-size: 2.8rem;
+    border-left: 5px solid rgb(233, 149, 31);
+    padding-left: 20px;
+ }
+ .love-info p{
+    color: rgb(115, 112, 112);
+    padding-top: 20px;
+ }
+ .love-info .love-card{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 10px rgb(249, 244, 244);
+ }      
+ .love-info .love-card h4{
+    font-size: 1.5rem;
+ }
+ .love-img button{
+    background-color: rgb(250, 180, 40);
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 120px;
+    right: 90px;
+ }
+ .love-img button h1{
+    font-size: 2.8rem;
+    color: white;
+ }
+ .love-img button p{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 20px;
+ }
+ .fact{
+    margin: 100px;
+ }
+ .fact-img{
+    display: flex;
+    padding-left: 80px;
+    
+ }
+ .fact h1{
+    font-size: 2.8rem;
+    padding-bottom: 40px;
+ }
+ .fact p{
+    color: rgb(138, 134, 134);
+    padding-bottom: 30px;
+ }
+  .templet{
+   margin: 40px;
+   border: 1px solid rgb(250, 180, 40);
+   text-align: center;
+   width: 230px;
+   padding-top: 20px;
+   border-radius: 10px;
+   
+  }
+  .templet h1{
+    padding-top: 10px;
+  }
+   .templet p {
+    font-size: 1.3rem;
+   }
+
 
 
 
@@ -110,6 +190,25 @@
     .feature-info{
         text-align: center;
     }
+    .feature-info{
+        padding-top: 0;
+    }
+    .love{
+        flex-direction: column;
+    }
+    .love-img{
+        padding-left: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .love-img button{
+      margin-left: 100px;
+     
+    }
+    .fact-img{
+     flex-direction: column;
+    }
+    
 
     
 }
